@@ -1,0 +1,41 @@
+body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login {
+  background: #140b96;
+  border: 1px solid #1c579e;
+  border-radius: 6px;
+  padding: 10px 10px 10px 10px;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+
+input[type="password"], input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 10px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+
+
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
